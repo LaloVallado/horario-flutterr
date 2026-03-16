@@ -1,0 +1,5 @@
+package com.example.proyecto41
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
