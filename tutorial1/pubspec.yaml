@@ -1,0 +1,42 @@
+name: tutorial1
+description: "A new Flutter project for AdMob integration tutorial."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos predeterminados para iOS
+  cupertino_icons: ^1.0.8
+
+  # LIBRERÍA DE ANUNCIOS (Indispensable para que no marque errores)
+  google_mobile_ads: ^5.1.0
+
+  # Fuente usada frecuentemente en los tutoriales de Google
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Reglas de estilo de código
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Habilita el uso de Material Design 3
+  uses-material-design: true
+
+  # Si en el futuro agregas imágenes, se declaran aquí:
+  # assets:
+  #   - assets/images/logo.png
+
+  # Si usas fuentes personalizadas de archivos locales:
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: fonts/MyFont-Regular.ttf
